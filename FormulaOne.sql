@@ -48,7 +48,7 @@ SELECT
 	MIN(time) AS fastest_time
 FROM driverslap_times
 GROUP BY lap
-ORDER BY lap
+ORDER BY lap DESC
 
 
 
